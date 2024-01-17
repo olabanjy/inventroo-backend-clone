@@ -8,6 +8,7 @@ exports.addRole = async (req, res) => {
       req.body.roleData
 
     const existingRole = await Role.findOne({
+      unique_company_id: unique_company_id,
       'role_modules.role_name': role_name,
     })
     if (existingRole) {

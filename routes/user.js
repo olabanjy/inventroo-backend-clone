@@ -10,6 +10,7 @@ const {
   accountApproval,
   registerCompanyUser,
   updateUserInfo,
+  pinLogin,
 } = require('../controllers/user')
 
 const { authUser, authAdmin, authCompanyAdmin } = require('../middlewares/auth')
@@ -19,6 +20,7 @@ const router = express.Router()
 router.post('/register', registerUser)
 router.post('/register-user', registerCompanyUser)
 router.post('/login', login)
+router.post('/pin-login', pinLogin)
 router.post('/completeregiter', completeRegister)
 router.post('/forgotpassword', forgotPassword)
 router.post('/forgotpasswordcode', forgotPasswordCode)

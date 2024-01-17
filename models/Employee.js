@@ -14,9 +14,12 @@ const employeeSchema = new Schema(
       default:
         'https://res.cloudinary.com/dwn02nfdv/image/upload/v1661767397/user_e33pcx.png',
     },
+    resetCode: {
+      type: String,
+    },
     isBlocked: { type: Boolean, default: false },
     date: { type: Date, default: Date.now },
-    pin: { type: String },
+    pinField: { type: String },
     password: { type: String },
     registerToken: { type: String },
     registerTokenExpires: { type: Date },

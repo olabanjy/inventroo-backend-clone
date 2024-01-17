@@ -1,0 +1,3 @@
+sku,product_name,unit,returnable,dimensions,weight,height,mpn,upc,isbn,ean,costPrice,tax,percentage,sellingPrice,description,inventoryAccount,openingStock,openingStockRatePerUnit,reorderPoint,preferredVendor,unitPrice
+112,Beef Feet 20KG,box,FALSE,,,,,,,,25,12,10,30.5,,Finished goods,100,25,20,,25
+113,Chicken meat,box,FALSE,,,,,,,,30,12,10,36.6,,Finished goods,50,30,20,,30

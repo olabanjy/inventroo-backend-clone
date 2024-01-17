@@ -142,7 +142,7 @@ const UserSchema = new Schema(
       text: true,
     },
     pin: {
-      type: Number,
+      type: String,
     },
     password: {
       type: String,
